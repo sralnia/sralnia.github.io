@@ -3,3 +3,74 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#main {
+    width: 45vw;
+    height: 20vh;
+    border-radius: 5px;
+    position: absolute;
+    left: calc(27.5%);
+    top: 25vh;
+    background-color: rgba(232, 193, 135, 1);
+    overflow: hidden;
+    border: inset 1px #13F;
+}
+
+#topBarElement {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90vw;
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 6px;
+    background: #13F;
+    color: #FFF;
+    font-weight: bold;
+    box-shadow: 0 -1px 2px 1px #ABF inset;
+}
+
+#close {
+    color: #FFF;
+    border: solid 1px #FFF;
+    outline: none;
+    background: #F00;
+    font-size: 12pt;
+    font-weight: bolder;
+    position: absolute;
+    top: 6px;
+    right: 95vh;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#title {
+    text-align: center;
+    font-size: 15pt;
+}
+
+#content {
+    margin-top: 10vh;
+    text-align: center;
+    width: 100%;
+}
+
+#description {
+    font-size: 15pt;
+    display: block;
+    text-align: center;
+}
+
+#acceptButton {
+    outline: none;
+    background-color: rgba(232, 193, 135, 1);
+    position: absolute;
+    left: calc(50% - 37.5px);
+    bottom: 5px;
+    width: 75px;
+    height: 25px;
+    font-family: 'VT323', monospace;
+    font-size: 11pt;
+}
